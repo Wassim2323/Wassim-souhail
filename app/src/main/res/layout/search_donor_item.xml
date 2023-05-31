@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/blood_bank_icon"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/donorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact: " />
+
+                <TextView
+                    android:id="@+id/donorContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+8801234567890" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/donorAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: Kushtia" />
+
+            <TextView
+                android:id="@+id/totaldonate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Donation: 0 times" />
+
+            <TextView
+                android:id="@+id/lastdonate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Donation: not yet donated!" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "289154831379",
+    "project_id": "memoire-version-finale",
+    "storage_bucket": "memoire-version-finale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289154831379:android:b432acaa580c592ec75be6",
+        "android_client_info": {
+          "package_name": "com.example.memoireversionfinale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289154831379-93ti3g3vjt6l3fq79vnsbctj3nnq8uc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv4qk9qEsBuuDyxidCOvDA5k6DjMB1jLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289154831379-93ti3g3vjt6l3fq79vnsbctj3nnq8uc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

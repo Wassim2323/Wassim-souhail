@@ -1,0 +1,25 @@
+package com.example.memoireversionfinale;
+
+import android.os.Bundle;
+import android.text.util.Linkify;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+public class AboutUs extends Fragment {
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.about_us, container, false);
+        getActivity().setTitle("About us");
+
+        View textView = view.findViewById(R.id.txtv);
+        Linkify.addLinks((TextView) textView, Linkify.ALL);
+        return  view;
+    }
+}

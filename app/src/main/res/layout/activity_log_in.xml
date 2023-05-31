@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".log__in">
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle"
+                android:src="@mipmap/blood_bank_icon_round" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:hint="Mot de passe" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/sign_in"
+            android:textColor="@color/white"
+            android:text="Sing in" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/button_register"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textColor="@color/primary"
+            android:background="@drawable/transfert"
+            android:text="Cree un compte" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/button_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textColor="@color/primary"
+            android:background="@drawable/transfert"
+            android:text="mot de pass oublier" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
